@@ -25,7 +25,7 @@ jobs:
 
       - name: ssh remote deploy
         if: ${{ steps.deployment-check.outputs.continue == 'true' }}
-        uses: appleboy/ssh-action@029f5b4aeeeb58fdfe1410a5d17f967dacf36262 # pin@v1.0.3
+        uses: appleboy/ssh-action@25ce8cbbcb08177468c7ff7ec5cbfa236f9341e1 # pin@v1.1.0
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
