@@ -1,6 +1,6 @@
 services:
   muse:
-    image: codetheweb/muse:2.9.1
+    image: ghcr.io/museofficial/muse:2.11.1
     container_name: muse
     restart: unless-stopped
     environment:
